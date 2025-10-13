@@ -1,0 +1,13 @@
+.sidebar {
+    background-color: #FBCFE8;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.sidebar a {
+    color: #B83280;
+}

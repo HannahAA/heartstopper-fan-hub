@@ -1,7 +1,7 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  /* padding: 2rem; */
   text-align: center;
 }
 
@@ -39,4 +39,52 @@
 
 .read-the-docs {
   color: #888;
+}
+
+/* In mobile devices, we don't want to show the navbar */
+
+.navbar {
+  display: none;
+}
+
+@media (min-width: 600px) {
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    /* height: 48px; */
+    height: 3.33vw;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    background-color: #FBCFE8;
+  }
+
+  .navbar a {
+    color: #374151
+  }
+
+  .navbar a:hover {
+    color: #B83280;
+  }
+}
+
+/* In mobile devices we want to show the sidebar button. */
+
+.sidebar-btn {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  /* padding: 0; */
+  /* border-radius: 0; */
+  background-color: transparent;
+}
+
+@media (min-width: 600px) {
+  .sidebar-btn {
+    display: none;
+  }
 }
