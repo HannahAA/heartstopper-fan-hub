@@ -1,0 +1,57 @@
+.card {
+    width: 200px;
+    height: 250px;
+    background-color: white;
+    border-radius: 8px;
+    border: 20px;
+    border-color: blueviolet;
+    /* margin: 0%; */
+    /* padding: 0em; */
+    overflow: hidden;
+}
+
+.char-photo {
+    width: 100%;
+    height: 85%;
+    background-color: lightcoral;
+}
+
+.charlie-image {
+    /* max-width: 100%; */
+    max-height: 100%;
+}
+
+.char-name {
+    width: 100%;
+    height: 15%;
+    background-color: lightgreen;
+}
+
+/* .dot-slider {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+} */
+
+.dot-slider {
+    width: 100%;
+    height: 15px;
+    /* background-color: blue; */
+    position: relative;
+    bottom: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 45%;
+    background-color: white;
+    cursor: pointer;
+}
