@@ -1,4 +1,4 @@
-import CharacterCard from "./components/characterCard";
+import CharacterCard from "./characterCard";
 import CharlieSpringSeriesPhoto from "../../assets/Charlie_Spring_series.jpg";
 import CharlieSpringComicPhoto from "../../assets/Charlie_Spring_comic.webp";
 import NickNelsonSeriesPhoto from "../../assets/Nick_Nelson_series.jpg";
@@ -18,7 +18,7 @@ import BenHopeComicPhoto from "../../assets/Ben_Hope_comic.webp";
 import DarcyOlssonSeriesPhoto from "../../assets/Darcy_Olsson_series.jpg";
 import DarcyOlssonComicPhoto from "../../assets/Darcy_Olsson_comic.webp";
 import "./CharactersPage.css";
-import CharacterOverlay from "./components/characterOverlay";
+import CharacterOverlay from "./characterOverlay";
 import { useState } from "react";
 
 const CharactersPage = () => {
