@@ -1,6 +1,5 @@
 import "./characterCard.css";
 import { useState } from "react";
-import NoPersonImg from "../../../assets/no-person-photo.jpg";
 import CharacterCardPhotoComp from "./characterCardPhotoComp";
 
 const CharacterCard = ({ name = "", images = [], openCharOverlay }) => {

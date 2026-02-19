@@ -1,4 +1,5 @@
 import { useState } from "react";
+import NoPersonImg from "../../assets/no-person-photo.jpg";
 import "./characterCardPhotoComp.css";
 
 const CharacterCardPhotoComp = ({ images = [] }) => {
