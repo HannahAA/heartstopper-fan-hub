@@ -3,6 +3,20 @@ import CharlieSpringSeriesPhoto from "../../assets/Charlie_Spring_series.jpg";
 import CharlieSpringComicPhoto from "../../assets/Charlie_Spring_comic.webp";
 import NickNelsonSeriesPhoto from "../../assets/Nick_Nelson_series.jpg";
 import NickNelsonComicPhoto from "../../assets/Nick_Nelson_comic.webp";
+import TaoXuSeriesPhoto from "../../assets/Tao_Xu_series.jpg";
+import TaoXuComicPhoto from "../../assets/Tao_Xu_comic.webp";
+import ElleArgentSeriesPhoto from "../../assets/Elle_Argent_series.webp";
+import ElleArgentComicPhoto from "../../assets/Elle_Argent_comic.webp";
+import AledLastComicPhoto from "../../assets/Aled_Last_comic.webp";
+import IsaacHendersonSeriesPhoto from "../../assets/Isaac_Henderson_series.jpg";
+import ToriSpringSeriesPhoto from "../../assets/Tori_Spring_series.jpg";
+import ToriSpringComicPhoto from "../../assets/Tori_Spring_comic.webp";
+import HarryGreeneSeriesPhoto from "../../assets/Harry_Greene_series.webp";
+import HarryGreeneComicPhoto from "../../assets/Harry_Greene_comic.webp";
+import BenHopeSeriesPhoto from "../../assets/Ben_Hope_series.webp";
+import BenHopeComicPhoto from "../../assets/Ben_Hope_comic.webp";
+import DarcyOlssonSeriesPhoto from "../../assets/Darcy_Olsson_series.jpg";
+import DarcyOlssonComicPhoto from "../../assets/Darcy_Olsson_comic.webp";
 import "./CharactersPage.css";
 import CharacterOverlay from "./components/characterOverlay";
 import { useState } from "react";
@@ -18,31 +32,31 @@ const CharactersPage = () => {
         images: [NickNelsonSeriesPhoto, NickNelsonComicPhoto],
     }, {
         name: "Tao Xu",
-        images: [],
+        images: [TaoXuSeriesPhoto, TaoXuComicPhoto],
     }, {
         name: "Elle Argent",
-        images: [],
+        images: [ElleArgentSeriesPhoto, ElleArgentComicPhoto],
     }, 
     {
         name: "Aled Last",
-        images: [],
+        images: [AledLastComicPhoto],
     }, 
     {
         name: "Isaac Henderson",
-        images: [],
+        images: [IsaacHendersonSeriesPhoto],
     }, 
     {
         name: "Tori Spring",
-        images: [],
+        images: [ToriSpringSeriesPhoto, ToriSpringComicPhoto],
     }, {
         name: "Harry Greene",
-        images: [],
+        images: [HarryGreeneSeriesPhoto, HarryGreeneComicPhoto],
     }, {
         name: "Ben Hope",
-        images: [],
+        images: [BenHopeSeriesPhoto, BenHopeComicPhoto],
     }, {
         name: "Darcy Olsson",
-        images: [],
+        images: [DarcyOlssonSeriesPhoto, DarcyOlssonComicPhoto],
     }, 
 ];
 

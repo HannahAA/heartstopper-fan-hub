@@ -1,0 +1,31 @@
+.photo-carousel {
+    width: 100%;
+    height: 90%;
+    background-color: lightcoral;
+    position: relative;
+}
+
+.char-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.dot-slider {
+    width: 100%;
+    position: absolute;
+    bottom: 5%;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 45%;
+    background-color: white;
+    cursor: pointer;
+}
