@@ -30,10 +30,6 @@
   padding: 2em;
 } */
 
-.read-the-docs {
-  color: #888;
-}
-
 /* In mobile devices we want to show the sidebar button. */
 
 .sidebar-btn {
@@ -49,4 +45,11 @@
   .sidebar-btn {
     display: none;
   }
+}
+
+.cast-photo {
+  width: 100%;
+  height: auto;
+  max-width: 600px;
+  border-radius: 10px;
 }

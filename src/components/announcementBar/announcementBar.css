@@ -1,0 +1,24 @@
+.announcement-bar {
+    background-color: #ffcc00; /* Bright yellow background */
+    color: #000; /* Black text for contrast */
+    padding: 10px 20px; /* Some padding for spacing */
+    width: 100%; /* Full width */
+    text-align: center; /* Center the text */
+    font-weight: bold; /* Make the text bold */
+    font-size: 1.2em; /* Slightly larger font size */
+    position: fixed; /* Fix the bar at the top */
+    top: 0;
+}
+
+.announcement-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 40px;
+  background-color: #fde68a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1001; /* above navbar */
+}

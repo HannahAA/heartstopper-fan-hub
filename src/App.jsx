@@ -8,6 +8,7 @@ import './App.css'
 import Navbar from './components/navbar/navbar'
 import SideBar from './components/sidebar/sidebar'
 import { useState } from 'react'
+import Layout from './layouts/layout'
 
 function App() {
 
@@ -21,13 +22,15 @@ function App() {
     <>
     {showSidebar && <SideBar />}
     <button className='sidebar-btn' onClick={toggleDisplaySidebar}>☰</button>
-    <Navbar />
+    {/* <Navbar /> */}
     <Routes>
-      <Route path="/" element={<HomePage />} />
-      <Route path="/about" element={<AboutPage />} />
-      <Route path="/contact" element={<ContactPage />} />
-      <Route path="/episodes" element={<EpisodesPage />} />
-      <Route path="/characters" element={<CharactersPage />} />
+      <Route element={<Layout />}>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/about" element={<AboutPage />} />
+        <Route path="/contact" element={<ContactPage />} />
+        <Route path="/episodes" element={<EpisodesPage />} />
+        <Route path="/characters" element={<CharactersPage />} />
+      </Route>
     </Routes>
     </>
   )
